@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://hppu2ga1h4er"]
+
+[ext_resource type="Texture2D" uid="uid://dpvw45chqguk" path="res://assets/sprites/levels/1/Asset 13@0.26x.png" id="1_s78al"]
+
+[node name="terrain_6" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-411, -10, -416, -337, -423, -360, -412, -428, -471, -709, -465, -741, -423, -769, -395, -774, -332, -753, -238, -740, -21, -760, 185, -787, 423, -766, 456, -769, 463, -691, 467, -260, 465, -105, 464, -9)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(0, -394.249)
+texture = ExtResource("1_s78al")

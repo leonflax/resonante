@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr8pi5vnecgb7"]
+
+[ext_resource type="Texture2D" uid="uid://bjgnqn8d22wed" path="res://assets/sprites/levels/1/Tower@0.26x.png" id="1_pxs4b"]
+
+[node name="terrain_3" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-88, -1, -86, -13, -91, -35, -90, -44, -73, -45, -62, -122, -59, -182, -45, -185, -7, -191, 25, -196, 51, -194, 84, -185, 90, -177, 91, -166, 87, -132, 89, -72, 91, -33, 92, -1)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(0, -182)
+texture = ExtResource("1_pxs4b")

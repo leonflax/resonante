@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwg8c0p6hemex"]
+
+[ext_resource type="Texture2D" uid="uid://cfsp85leibpyy" path="res://assets/sprites/levels/1/Asset 14@0.26x.png" id="1_rihxk"]
+
+[node name="terrain_4" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(16.7045, -1.6568, 6.96129, -49.5831, 2.48466, -97.5094, 2.37421, -299.575, 10.0851, -304.587, 57.5069, -304.201, 58.278, -361.647, 63.29, -364.346, 131.917, -363.96, 139.628, -393.262, 138.471, -466.515, 104.929, -623.045, 86.037, -706.708, 96.0611, -745.262, 126.519, -765.696, 156.206, -769.552, 182.037, -765.311, 220.206, -752.202, 273.411, -741.792, 358.231, -738.323, 534.424, -758.756, 686.713, -776.106, 918.81, -774.564, 972.401, -765.696, 1010.18, -769.166, 1013.65, -764.154, 1022, -243, 1015, -7)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(513.753, -391.354)
+texture = ExtResource("1_rihxk")

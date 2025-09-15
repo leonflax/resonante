@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="Resonante"
-run/main_scene="uid://dj1yjrjvqadc3"
+run/main_scene="uid://bpsd418tieepb"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 
 [input]
 
@@ -38,3 +44,4 @@ move_right={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.47849, 0.646703, 0.452108, 1)
